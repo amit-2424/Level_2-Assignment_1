@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------------------------
-                                                              # Blog-1
+                                                  # Blog-1
 ------------------------------------------------------------------------------------------------------------
 # ⭐ Differences Between **Interfaces** and **Types** in TypeScript
 
@@ -43,7 +43,7 @@ Use Interface: For objects, classes, and extendable APIs.
 Use Type: For unions, intersections, tuples, and advanced type structures.
 
 ------------------------------------------------------------------------------------------------------------
-                                                              # Blog-2
+                                                  # Blog-2
 ------------------------------------------------------------------------------------------------------------
 
 # ⭐ Union and Intersection Types in TypeScript
@@ -110,7 +110,7 @@ Intersection (&): A variable must satisfy all the combined types.
 Using these features makes your TypeScript code more flexible, type-safe, and easier to maintain.
 
 ------------------------------------------------------------------------------------------------------------
-                                                              # Blog-3
+                                                  # Blog-3
 ------------------------------------------------------------------------------------------------------------
 
 # ⭐ What is an Enum in TypeScript?
@@ -159,7 +159,7 @@ Reduce hard-coded errors
 Make grouped values easy to manage
 
 ------------------------------------------------------------------------------------------------------------
-                                                              # Blog-4
+                                                  # Blog-4
 ------------------------------------------------------------------------------------------------------------
 # ⭐ Difference between any, unknown, and never types in TypeScript:
 ## 1. Any Type
@@ -217,7 +217,7 @@ Use unknown for type-safe dynamic data.
 Use never for impossible or non-returning scenarios.
 
 ------------------------------------------------------------------------------------------------------------
-                                                              # Blog-5
+                                                  # Blog-5
 ------------------------------------------------------------------------------------------------------------
 # ⭐ What is keyof in TypeScript?
 The keyof keyword is used to create a union type of all the keys of an object type.
