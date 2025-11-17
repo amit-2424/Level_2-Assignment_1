@@ -39,7 +39,9 @@ type Pair = [number, number];
 Use Interface: For objects, classes, and extendable APIs.
 Use Type: For unions, intersections, tuples, and advanced type structures.
 
+
 ------------------------------------------------------------------------------------------------------------
+
 
 # ⭐ Union and Intersection Types in TypeScript
 
