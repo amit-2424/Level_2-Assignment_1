@@ -80,8 +80,22 @@ const printBookDetails = (input: Book): void => {
 type arr = (number | string)[];
 
 const getUniqueValues = (arr1: arr, arr2: arr): arr => {
-  let newArr: arr = [...arr1];
+  let newArr: arr = [];
+  let k = 0;
 
+  for (let i = 0; i < arr1.length; i++) {
+    let exists = false;
+    for (let j = 0; j < newArr.length; j++) {
+      if (arr1[i] === newArr[j]) {
+        exists = true;
+        break;
+      }
+    }
+    if (!exists) {
+      newArr[k] = arr1[i];
+      k++;
+    }
+  }
   for (let i = 0; i < arr2.length; i++) {
     let exists = false;
     for (let j = 0; j < newArr.length; j++) {
@@ -91,12 +105,12 @@ const getUniqueValues = (arr1: arr, arr2: arr): arr => {
       }
     }
     if (!exists) {
-      newArr.push(arr2[i]);
+      newArr[k] = arr2[i];
+      k++;
     }
   }
   return newArr;
 };
-
 // Solution 8
 type products = {
   name: string;
